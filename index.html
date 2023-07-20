@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="#" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="theme-color" content="#16A085" />
+		<title>Title</title>
+		<style>
+			* {
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			html,
+			body {
+				overflow-x: hidden;
+			}
+
+			body {
+				min-height: 100vh;
+				font-family: monospace;
+				
+			}
+
+			@media only screen and (max-width: 768px) {
+				body {
+					background-image: url("public/iphonebackground.jpg");
+					background-size: cover;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>
